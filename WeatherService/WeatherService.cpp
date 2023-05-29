@@ -1,4 +1,6 @@
-﻿#include "JsonService.h"
+#include "JsonService.h"
+#include "XmlService.h"
+
 
 int main()
 {
@@ -8,4 +10,9 @@ int main()
 	Weather w = js.getWeather("weather.json");
 
 	w.printWeather();
+
+	XmlService xs;
+	Weather w2 = xs.getWeather("weather.xml");
+
+	w2.printWeather();
 }
