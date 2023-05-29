@@ -130,6 +130,7 @@
   <ItemGroup>
     <ClCompile Include="Weather.cpp" />
     <ClCompile Include="WeatherService.cpp" />
+    <ClCompile Include="XmlService.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\marih\Desktop\Введение в профессию\Lib\json-develop\include\nlohmann\json.hpp" />
@@ -138,6 +139,7 @@
     <ClInclude Include="C:\Users\marih\Desktop\Введение в профессию\Lib\pugixml-master\src\pugixml.hpp" />
     <ClInclude Include="Service.h" />
     <ClInclude Include="Weather.h" />
+    <ClInclude Include="XmlService.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
