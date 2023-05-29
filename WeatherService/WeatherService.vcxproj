@@ -128,6 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="JsonService.cpp" />
     <ClCompile Include="Weather.cpp" />
     <ClCompile Include="WeatherService.cpp" />
   </ItemGroup>
@@ -136,6 +137,7 @@
     <ClInclude Include="C:\Users\marih\Desktop\Введение в профессию\Lib\json-develop\include\nlohmann\json_fwd.hpp" />
     <ClInclude Include="C:\Users\marih\Desktop\Введение в профессию\Lib\pugixml-master\src\pugiconfig.hpp" />
     <ClInclude Include="C:\Users\marih\Desktop\Введение в профессию\Lib\pugixml-master\src\pugixml.hpp" />
+    <ClInclude Include="JsonService.h" />
     <ClInclude Include="Service.h" />
     <ClInclude Include="Weather.h" />
   </ItemGroup>
